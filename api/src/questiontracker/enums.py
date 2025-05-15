@@ -1,7 +1,7 @@
 from enum import StrEnum
 
 
-class QuestionTracker(StrEnum):
+class QuestionTrackerEnum(StrEnum):
     """
     A custom Enum class that extends StrEnum.
 
@@ -9,7 +9,7 @@ class QuestionTracker(StrEnum):
     string representation and automatic value conversion to strings.
 
     Example:
-        class Visibility(DispatchEnum):
+        class Visibility(QuestionTrackerEnum):
             OPEN = "Open"
             RESTRICTED = "Restricted"
 
