@@ -9,6 +9,7 @@ pydantic-settings = "*"
 pre-commit = "*"
 sqlalchemy = {extras = ["asyncio"], version = "*"}
 alembic = "*"
+sqlmodel = "*"
 
 [dev-packages]
 
