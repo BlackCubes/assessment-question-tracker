@@ -5,7 +5,7 @@ from uuid import UUID
 from pydantic import EmailStr
 from sqlmodel import Field
 
-from .base import Base
+from app.database.base import Base
 
 
 # Shared properties
