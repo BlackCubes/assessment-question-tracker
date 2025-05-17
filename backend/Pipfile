@@ -8,6 +8,7 @@ fastapi = {extras = ["standard"], version = "*"}
 pydantic-settings = "*"
 pre-commit = "*"
 sqlalchemy = {extras = ["asyncio"], version = "*"}
+alembic = "*"
 
 [dev-packages]
 
