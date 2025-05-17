@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pre-commit = "*"
 fastapi = {extras = ["standard"], version = "*"}
 pydantic-settings = "*"
+pre-commit = "*"
 
 [dev-packages]
 
