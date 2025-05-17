@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 pre-commit = "*"
 fastapi = {extras = ["standard"], version = "*"}
-slowapi = "*"
 
 [dev-packages]
 
