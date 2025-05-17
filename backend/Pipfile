@@ -10,6 +10,7 @@ pre-commit = "*"
 sqlalchemy = {extras = ["asyncio"], version = "*"}
 alembic = "*"
 sqlmodel = "*"
+psycopg = {extras = ["binary"], version = "*"}
 
 [dev-packages]
 
